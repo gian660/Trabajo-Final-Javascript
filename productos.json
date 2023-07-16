@@ -1,0 +1,107 @@
+﻿[
+    {
+        "sku": "X001",
+        "name": "V30 ZTE",
+        "price": "800",
+        "offer": "0.12",
+        "image": "cel1.webp"
+    },
+    {
+        "sku": "X002",
+        "name": "REDMI",
+        "price": "700",
+        "offer": "0.02",
+        "image": "cel2.webp"
+    },
+    {
+        "sku": "X003",
+        "name": "SAMSUNG A24",
+        "price": "1100",
+        "offer": "0.13",
+        "image": "cel3.webp"
+    },
+    {
+        "sku": "X004",
+        "name": "OPPO A17",
+        "price": "900",
+        "offer": "0.17",
+        "image": "cel4.webp"
+    },
+    {
+        "sku": "X005",
+        "name": "SAMSUNG S21 5G",
+        "price": "2500",
+        "offer": "0.47",
+        "image": "cel5.webp"
+    },
+    {
+        "sku": "X006",
+        "name": "SAMSUNG S20 FE 5G",
+        "price": "2000",
+        "offer": "0.08",
+        "image": "cel6.webp"
+    },
+    {
+        "sku": "X007",
+        "name": "REDMI NOTE 12",
+        "price": "1500",
+        "offer": "0.19",
+        "image": "cel7.webp"
+    },
+    {
+        "sku": "X008",
+        "name": "HONOR MAGIC 5",
+        "price": "1000",
+        "offer": "0.18",
+        "image": "cel8.webp"
+    },
+    {
+        "sku": "X009",
+        "name": "REDMI 12 PRO",
+        "price": "1500",
+        "offer": "0.06",
+        "image": "cel9.webp"
+    },
+    {
+        "sku": "X010",
+        "name": "IPHONE 13",
+        "price": "30000",
+        "offer": "0.24",
+        "image": "cel10.webp"
+    },
+    {
+        "sku": "X011",
+        "name": "IPHONE12",
+        "price": "2500",
+        "offer": "0.48",
+        "image": "cel11.webp"
+    },
+    {
+        "sku": "X012",
+        "name": "SAMSUNG S23+",
+        "price": "3200",
+        "offer": "0.47",
+        "image": "cel12.webp"
+    },
+    {
+        "sku": "X013",
+        "name": "SAMSUNG S23 ULTRA",
+        "price": "4500",
+        "offer": "0.01",
+        "image": "cel13.webp"
+    },
+    {
+        "sku": "X014",
+        "name": "SAMSUNG S23 256GB",
+        "price": "4000",
+        "offer": "0.46",
+        "image": "cel14.webp"
+    },
+    {
+        "sku": "X015",
+        "name": "MOTOROLA G6 MOTO E",
+        "price": "2000",
+        "offer": "0.3",
+        "image": "cel15.webp"
+    }
+]

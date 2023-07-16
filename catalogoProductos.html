@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Celulares</title>
+
+    <!--Enlazar Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!--Enlazar el estilo personalizado-->
+    <link rel="stylesheet" href="css/customCatalogoProductos.css">
+
+</head>
+
+<body>
+
+    <!-- Logo de Whatsapp -->
+    <div id="contactoWhatsapp">
+        <a target="_blank" href="https://wa.me/51987654321?text=Hola">
+            <img src="img/recursos/WhatsApp.gif" alt="Contacto por Whatsapp">
+        </a>
+    </div>
+
+    <!--Encabezado-->
+    <header class="p-4">
+        <h1 class="m-0 text-center fw-bolder">CELULARES<a type="button" class="btn btn-outline-danger"
+                href="login-form.html" id="cerrar">Cerrar sesion</a></h1>
+        <h2 class="m-0 text-center fw-medium">Tenemos lo que estas buscando, encuentra los mejores celulares liberados
+            con un precio exclusivo online
+        </h2>
+    </header>
+
+    <!-- Barra de menú -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Equipos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration-form.html">Registrate</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-success btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#carritoModal">Carrito</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal Carrito -->
+    <div class="modal fade" id="carritoModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de compra</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carrito">
+                        <img id="carritoVacio" class="img-fluid mx-auto d-block" src="img/recursos/carrito-vacio.jpg"
+                            alt="Carrito Vacio">
+                        <figcaption class="text-center">Actualmente usted no cuenta con ningún producto.</figcaption>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary disabled">Cotizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Carrusel boostrap-->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/recursos/carousel-1.jpg" style="height: 350px;" class="d-block w-100" alt="carousel1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/recursos/carousel-2.jpg" style="height: 350px;" class="d-block w-100" alt="carousel2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/recursos/carousel-3.jpg" style="height: 350px;" class="d-block w-100" alt="carousel3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Parte principal -->
+    <main class="pageCatalogo container">
+
+        <!-- Sección de catalogo -->
+        <section class="row" id="catalogo">
+
+            <!-- Aqui se agregaran los productos por JSON -->
+            
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <div class="card text-center">
+        <div class="card-footer text-body-secondary">
+            ///------ Pagina hecha por Gianmarcos - 2023 ------////
+        </div>
+    </div>
+    
+
+    <!-- Cargar Javascript del proyecto -->
+    <script src="js/main.js"></script>
+    <script src="js/productos.js"></script>
+</body>
+
+</html>

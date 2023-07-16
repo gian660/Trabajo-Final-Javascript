@@ -1,0 +1,93 @@
+/*Estilos global*/
+*{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 1.05em;
+    color: #1c1c1c;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    background-image: url(../img/recursos/background.jpg);
+    background-attachment: fixed;
+}
+
+/*Cabecera*/
+header{
+    background:#003c85;
+}
+
+/*Estilo titulo*/
+header > h1{
+    font-size: 4em;
+    font-family: 'Alkatra', cursive;
+    color: #d6d6d6;
+}
+
+#cerrar{
+    position: absolute;
+    right: 5px;
+
+}
+/* Estilo titulo */
+header > h2{
+    padding-top: 20px;
+    color: #979797;
+}
+
+
+/*Pagina catalogo*/
+main.pageCatalogo{
+    background-color: #e4c98e;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*Articulos*/
+article{
+    border: #154686 5px solid;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+article:hover{
+    border: red 4px solid;
+}
+
+.imgProduct {
+    width: 100%;
+    border-radius: 5%;
+}
+
+article > button{
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.precioOriginal{
+    text-decoration: line-through;
+}
+
+.precioDescuento{
+    color: #e0e0e0;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #be0000;
+    border-radius: 5px;
+}
+
+.precioFinal{
+    color: #bf0f0f;
+}
+
+/* Contacto por Whatsapp */
+#contactoWhatsapp {
+    width: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
+
+div > a > img {
+    width: 100%
+}

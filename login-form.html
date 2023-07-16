@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+
+  <!-- Agregar los estilos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <!-- Agregar los estilos personalizados -->
+  <link rel="stylesheet" href="customIniciarSesion.css">
+</head>
+
+<body>
+
+  <!-- Clase contenedor -->
+  <div class="row justify-content-md-center">
+
+    <!-- Ancho de la ventana -->
+    <div class="col-8">
+
+      <!-- Titulo de Inicio de sesion-->
+      <h2 class="text-center mt-5 mb-4 fw-bold text-decoration-underline">Iniciar sesión</h2>
+
+      <!-- Formulario para le inicio de sesión -->
+      <form action="catalogoProductos.html" method="post">
+
+        <!-- Entrada "Usuario" -->
+        <div class="mb-3">
+          <label for="username" class="form-label">Usuario:</label>
+          <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <!-- Entrada "Contraseña" -->
+        <div class="mb-4">
+          <label for="password" class="form-label">Contraseña:</label>
+          <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+
+        <!-- Entrada "Submit" -->
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </form>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
